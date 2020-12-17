@@ -7,6 +7,38 @@
     <link rel="stylesheet" href="stylesheets/style.min.css">
 </head>
 <body>
-    <script src="javascripts/app.min.js"></script>
+
+<div class="component--remaining-credit" id="free-trial-credit-1">
+
+    <h3>Free trial credit</h3>
+
+    <div class="credit">
+
+        <div class="circle">
+            <svg width="72" height="72" id="circle-1">
+                <circle cx="36" cy="36" r="33"></circle>
+                <circle cx="36" cy="36" r="33" id="percent-circle"></circle>
+            </svg>
+        </div>
+
+        <div class="text">
+            <div class="amount">$<span class="remaining">0</span>/$<span class="total">0</span></div>
+            <div class="price-description">Free trial credit</div>
+        </div>
+    </div>
+
+    <div class="description">
+        You will not be billed during your free trial.
+        To keep your projects running after the trial end, upgrade to a paid option.
+    </div>
+
+    <div class="buttons">
+        <button filled>Upgrade</button>
+        <button>Learn More</button>
+    </div>
+
+</div>
+
+<script src="javascripts/app.js"></script>
 </body>
 </html>
